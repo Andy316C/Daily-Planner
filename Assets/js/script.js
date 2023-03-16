@@ -1,5 +1,5 @@
 var dayjs= dayjs();
-var date= dayjs.format("DD/MM/YYYY h:mm:ss A");
+var date= dayjs.format("dddd DD/MM/YYYY");
 var dateHour= dayjs.format('h');
 var dateAMPM= dayjs.format("A");
 $("#currentDay").text(date);
