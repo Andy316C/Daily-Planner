@@ -10,7 +10,7 @@ for(var i=1; i < 25; i++){
     if(i < 13){
       $(".dayz").append('<div id="hour-'+i+'" class="row time-block '+i+'AM"></div>');
       $("#hour-"+i).append(
-        '<div id="hour-'+i+'" class="row time-block past"></div><div class="col-2 col-md-1 hour text-center py-3">'+i+':00 AM</div><textarea class="col-8 col-md-10 description-'+i+'" rows="3"> </textarea><button class="btn saveBtn col-2 col-md-1" aria-label="save"><i class="fas fa-save" aria-hidden="true"></i> </button></div>'
+        '<div class="col-2 col-md-1 hour text-center py-3">'+i+':00 AM</div><textarea class="col-8 col-md-10 description-'+i+'" rows="3"> </textarea><button class="btn saveBtn col-2 col-md-1" aria-label="save"><i class="fas fa-save" aria-hidden="true"></i> </button></div>'
         );
     }else{
       $(".dayz").append('<div id="hour-'+i+'" class="row time-block '+i+'PM"></div>');
