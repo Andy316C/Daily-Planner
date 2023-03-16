@@ -19,8 +19,6 @@ for(var i=1; i < 25; i++){
         );
     }
 }
-dateHourNum= 6;
-dateAMPM= "PM";
 
 
 if(dateAMPM == "PM"){
