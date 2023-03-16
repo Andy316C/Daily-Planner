@@ -6,11 +6,11 @@ Each Hour is color coded to let you know if it is past present or future.
 The grey color means the time frame has passed, the red color means present hour and the green color means future time frames.
 
 ## Images
-Example of past time frames.
+<u>Example of past time frames.</u>
 <img src="Assets/images/readme-pic.png">
 <br>
 <br>
-Example of past, present and future time frames
+<u>Example of past, present and future time frames</u>
 <img src="Assets/images/readme-pic2.png">
 <br>
 <br>
